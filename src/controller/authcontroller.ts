@@ -1,6 +1,6 @@
 import { Request, Response } from "express"
 import { comparePassword, hashPassword } from "../services/password.services"
-import prisma from '../models/user'
+import prisma from '../models/myuser'
 import { generateToken } from "../services/aut.service"
 
 

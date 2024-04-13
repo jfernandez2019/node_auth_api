@@ -1,6 +1,6 @@
 import { Request, Response } from "express"
 import { hashPassword } from "../services/password.services"
-import prisma from '../models/user'
+import prisma from '../models/myuser'
 
 
 export const createUser = async (req: Request, res: Response): Promise<void> => {
